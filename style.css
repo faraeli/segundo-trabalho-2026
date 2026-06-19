@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: radial-gradient(circle, #3a0000, #120000);
+  color: white;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 30px 0;
+}
+
+/* palavras do topo */
+.top-keywords {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+/* logo */
+.logo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logo h1 {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.logo span {
+  color: red;
+}
+
+/* descrição */
+.descricao {
+  text-align: justify;
+  line-height: 1.6;
+  font-size: 16px;
+  margin: 20px 0;
+}
+
+/* imagens */
+.imagens {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.imagens img {
+  width: 45%;
+  border-radius: 10px;
+  border: 2px solid red;
+  box-shadow: 0 0 10px black;
+}
