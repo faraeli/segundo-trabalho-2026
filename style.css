@@ -47,7 +47,7 @@ body {
 }
 
 /* imagens */
-.imagens {
+.imagens { 
   display: flex;
   gap: 15px;
   justify-content: center;
